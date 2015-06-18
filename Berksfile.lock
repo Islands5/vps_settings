@@ -1,0 +1,22 @@
+DEPENDENCIES
+  golang
+    git: https://github.com/NOX73/chef-golang
+    revision: 50cdfa1a95b8de5d5a4d51a3b013d59bbb96716b
+    branch: master
+  mysql (~> 5.3.6)
+  openssh
+  sudo
+  user
+
+GRAPH
+  golang (1.5.1)
+  iptables (1.0.0)
+  mysql (5.3.6)
+    yum-mysql-community (>= 0.0.0)
+  openssh (1.4.0)
+    iptables (>= 0.0.0)
+  sudo (2.7.1)
+  user (0.4.2)
+  yum (3.6.1)
+  yum-mysql-community (0.1.17)
+    yum (>= 3.0)
